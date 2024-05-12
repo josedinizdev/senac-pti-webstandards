@@ -6,37 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DoPrint - Imprimindo sonhos</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="public/assets/images/icons/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <!--
+    <div class="column abertura overflow">
+        <img class="painel" src="public/assets/images/painel.avif" alt="3 pessoas sorrindo sentadas em uma mesa">
+
+        <!--
     * Cabecalho
     -->
-    <header class="row a-center j-between">
-        <svg width="94" height="32" viewBox="0 0 94 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M23.6189 0H54.7737C56.8682 0 54.7737 9.22034 49.2758 9.22034H20.2154C16.5501 9.22034 20.2154 0 23.6189 0Z" fill="#00C0EB"/>
-            <path d="M14.3985 22.7797H45.5534C47.6478 22.7797 45.5534 32 40.0555 32H10.995C7.32976 32 10.995 22.7797 14.3985 22.7797Z" fill="#FFD914"/>
-            <path d="M5.1312 11.3898H50.1296C53.0248 11.3898 50.1296 20.6102 43.3685 20.6102H2.35774C-1.91965 20.6102 2.35774 11.3898 5.1312 11.3898Z" fill="#FB00A6"/>
-            <path d="M59.7683 3.21838C60.5073 1.28046 62.366 0 64.4401 0H89.0583C91.1937 0 92.6454 2.16773 91.8323 4.14225L87.1063 15.6199C85.2548 20.1163 80.8728 23.0508 76.0101 23.0508H73.6129C70.8021 23.0508 68.8679 20.2281 69.8826 17.6069L70.0401 17.2001C70.6364 15.6596 72.1184 14.6441 73.7703 14.6441H76.4218C77.9369 14.6441 79.3219 13.7881 79.9995 12.4329L80.7009 11.03C81.3658 9.70022 80.3988 8.13559 78.9121 8.13559H70.4891C68.8506 8.13559 67.3778 9.13484 66.7723 10.6573L59.2867 29.4783C58.6812 31.0008 57.2084 32 55.5699 32H53.147C51.0453 32 49.5951 29.8948 50.3439 27.931L59.7683 3.21838Z" fill="url(#paint0_linear_1_13)"/>
-            <defs>
-            <linearGradient id="paint0_linear_1_13" x1="71.1651" y1="0" x2="54.4871" y2="42.5763" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white"/>
-            <stop offset="1" stop-color="#979797"/>
-            </linearGradient>
-            </defs>
+        <header class="row a-center j-between">
+            <svg width="93" height="32" viewBox="0 0 93 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M23.0729 0H54.2278C56.3222 0 54.2278 9.22034 48.7298 9.22034H19.6694C16.0041 9.22034 19.6694 0 23.0729 0Z"
+                    fill="#FF5100" />
+                <path
+                    d="M13.8526 22.7797H45.0074C47.1019 22.7797 45.0074 32 39.5095 32H10.4491C6.7838 32 10.4491 22.7797 13.8526 22.7797Z"
+                    fill="#FF5100" />
+                <path
+                    d="M4.58524 11.3898H49.5836C52.4789 11.3898 49.5836 20.6102 42.8225 20.6102H1.81178C-2.46561 20.6102 1.81178 11.3898 4.58524 11.3898Z"
+                    fill="#FF5100" />
+                <path
+                    d="M59.2223 3.21838C59.9613 1.28046 61.8201 0 63.8941 0H88.5124C90.6477 0 92.0994 2.16773 91.2864 4.14225L86.5603 15.6199C84.7089 20.1163 80.3269 23.0508 75.4642 23.0508H73.0669C70.2561 23.0508 68.322 20.2281 69.3367 17.6069L69.4941 17.2001C70.0905 15.6596 71.5725 14.6441 73.2244 14.6441H75.8758C77.3909 14.6441 78.776 13.7881 79.4535 12.4329L80.155 11.03C80.8199 9.70022 79.8529 8.13559 78.3661 8.13559H69.9432C68.3047 8.13559 66.8319 9.13484 66.2264 10.6573L58.7407 29.4783C58.1352 31.0008 56.6624 32 55.0239 32H52.6011C50.4994 32 49.0491 29.8948 49.798 27.931L59.2223 3.21838Z"
+                    fill="url(#paint0_linear_6_21)" />
+                <defs>
+                    <linearGradient id="paint0_linear_6_21" x1="70.6191" y1="0" x2="53.9412" y2="42.5763"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white" />
+                        <stop offset="1" stop-color="#979797" />
+                    </linearGradient>
+                </defs>
             </svg>
-                       
 
-        <div class="row">
-            <a href="" class="link">Inicio</a>
-            <a href="" class="link">Beneficios</a>
-            <a href="" class="link">Precos</a>
-            <a href="" class="link">Fale conosco</a>
-            <a href="" class="link">Sobre nos</a>
+
+            <div class="row">
+                <a href="#" class="link">Inicio</a>
+                <a href="#portfolio" class="link">Portfólio</a>
+                <a href="" class="link">Preços</a>
+                <a href="" class="link">Fale conosco</a>
+                <a href="" class="link">Sobre nós</a>
+            </div>
+        </header>
+
+        <!--
+    * Primeira sessao - Apresentacao
+    -->
+        <section id="inicio" class="first row">
+            <div class="column">
+                <h1>Traga vida a seus projetos</h1>
+                <h2>
+                    Apresente sua ideia e te entregamos 
+                    ela pronta, e ainda cabe no seu bolso! 
+                    Entregamos para todas as regiões.
+                </h2>
+                <a href="">NÃO PERCA TEMPO</a>
+                <p>Frete grátis para todas as regiões de São Paulo, SP*</p>
+            </div>
+        </section>
+    </div>
+
+    <section id="portfolio" class="second column">
+        <div class="dados column">
+            <svg width="100" height="8" viewBox="0 0 100 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100" height="8" fill="url(#paint0_linear_15_45)"/>
+                <defs>
+                <linearGradient id="paint0_linear_15_45" x1="0" y1="4" x2="100" y2="4" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF5100"/>
+                <stop offset="1" stop-color="#FAD200"/>
+                </linearGradient>
+                </defs>
+                </svg>                
+            <h2>Conheça nossos últimos trabalhos</h2>
+            <p>Explore nossa galeria de trabalhos recentes e mergulhe na nossa jornada de excelência em serviços.</p>
+            <p>
+                Com um alcance que se estende por
+                todo o território brasileiro, temos
+                o orgulho de ter atendido mais de
+                900 clientes até o momento. Cada
+                projeto é uma história em si, um
+                testemunho da nossa dedicação em
+                fornecer soluções sob medida que
+                atendam às necessidades únicas de
+                cada cliente.
+            </p>
         </div>
-    </header>
+        <div class="row w-100">
+            <div class="column w-100">
+                <img src="public/assets/images/projeto1.avif" alt="" class="img-projeto">
+                <img src="public/assets/images/projeto5.avif" alt="" class="img-projeto">
+            </div>
+            <div class="column w-100">
+                <img src="public/assets/images/projeto2.avif" alt="" class="img-projeto">
+                <img src="public/assets/images/projeto4.avif" alt="" class="img-projeto">
+            </div>
+            <div class="column w-100">
+                <img src="public/assets/images/projeto3.avif" alt="" class="img-projeto">
+                <img src="public/assets/images/projeto6.avif" alt="" class="img-projeto">
+            </div>
+        </div>
+    </section>
 
-    <body></body>
+    <section class="third row">
+        <div class="column">
+            <svg width="100" height="8" viewBox="0 0 100 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100" height="8" fill="url(#paint0_linear_15_45)"/>
+                <defs>
+                <linearGradient id="paint0_linear_15_45" x1="0" y1="4" x2="100" y2="4" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF5100"/>
+                <stop offset="1" stop-color="#FAD200"/>
+                </linearGradient>
+                </defs>
+                </svg> 
+            <h2>Descubra como podemos transformar suas ideias em realidade!</h2>
+            <p>
+                Faca seu pedido via WhatsApp, 
+                oferecemos uma abordagem flexível
+                para atender às suas necessidades 
+                de projeto.
+            </p>
+            <p>
+                Em vez de tarifas fixas, personalizamos 
+                nossos preços de acordo com o tamanho e 
+                complexidade do seu projeto específico. 
+                Isso significa que você obtém um serviço 
+                sob medida, adaptado exatamente ao que 
+                você precisa.
+            </p>
+            <a href="">COMPRE AGORA</a>
+            <p class="informacao">Valor 100% negociável*</p>
+        </div>
+        <img src="public/assets/images/comemoracao.avif" alt="um homem sentado na frente de um computador portatil">
+    </section>
+
     <footer></footer>
 </body>
 

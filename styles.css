@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,11 +9,18 @@
 }
 
 a, a span, p, p span {
-    font-family: "Reddit Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .row {
@@ -38,9 +45,37 @@ a, a span, p, p span {
     justify-content: center;
 }
 
+.relative {
+    position: relative;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.h-fit {
+    height: fit-content;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-auto {
+    height: auto
+}
+
+.overflow {
+    overflow: hidden;
+}
+
 header {
     padding: 24px 36px;
-    background-color: #323232;
+    --background-color: #323232;
 }
 
 header div {
@@ -50,4 +85,121 @@ header div {
 header div a {
     font-size: 18px;
     color: #fff;
+}
+
+.abertura {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.first {
+    width: 100%;
+}
+
+.painel {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.first div * {
+    color: #fff;
+}
+
+.first div {
+    margin: 80px 128px 160px;
+    max-width: 550px;
+}
+
+.first h1 {
+    font-size: 58px;
+    margin-bottom: 4px;
+}
+
+.first h2 {
+    font-size: 16px;
+}
+
+.first a {
+    background-color: #ff5100;
+    font-weight: 600;
+    font-size: 18px;
+    width: fit-content;
+    padding: 16px 32px;
+    margin: 48px 0 8px;
+}
+
+.first p {
+    color: #f9f9f9;
+    margin: 0 0 32px;
+    font-size: 12px;
+}
+
+.second {
+    padding: 32px 80px;
+    width: 100%;
+}
+
+.img-projeto {
+    width: 100%;
+    height: auto;
+}
+
+.second .dados {
+    gap: 6px;
+    padding: 12px 0 32px;
+}
+
+.second .dados h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.third {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    gap: 24px
+}
+
+.third div {
+    gap: 6px;
+    padding: 44px 0 32px 80px;
+    width: 50%;
+    height: fit-content;
+}
+
+.third h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+ 
+.third img {
+    position: absolute;
+    width: auto;
+    top: 25px;
+    right: 80px;
+    height: 110%;
+} 
+
+.third a {
+    color: white;
+    background-color: #ff5100;
+    font-weight: 600;
+    font-size: 18px;
+    width: fit-content;
+    padding: 16px 32px;
+    margin: 32px 0 0;
+}
+
+.third .informacao {
+    color: #242424;
+    margin: 0 0 32px;
+    font-size: 12px;
+    margin: 0 0 32px;
 }
